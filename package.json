@@ -1,0 +1,13 @@
+{
+  "name": "language-docker",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Dockerfile syntax highlighting",
+  "repository": "https://github.com/jagregory/language-docker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
