@@ -1,6 +1,6 @@
 {
   "name": "language-docker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Dockerfile syntax highlighting",
   "repository": "https://github.com/jagregory/language-docker",
