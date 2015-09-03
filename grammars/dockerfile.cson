@@ -4,13 +4,13 @@
 ]
 'patterns': [
   {
-    'match': '^\\s*(MAINTAINER)\\s.*',
+    'match': '^\\s*(MAINTAINER|FROM)\\s.*',
     'captures':
       '1':
         'name': 'keyword.control.dockerfile'
   }
   {
-    'match': '^\\s*(ONBUILD\\s+)?(FROM|RUN|EXPOSE|ENV|ADD|COPY|VOLUME|USER|WORKDIR|CMD|ENTRYPOINT|LABEL)\\s'
+    'match': '^\\s*(ONBUILD\\s+)?(RUN|EXPOSE|ENV|ADD|COPY|VOLUME|USER|WORKDIR|CMD|ENTRYPOINT|LABEL)\\s'
     'captures':
       '0':
         'name': 'keyword.control.dockerfile'
