@@ -1,0 +1,15 @@
+'name': '.dockerignore'
+'fileTypes': [
+  '.dockerignore'
+]
+'patterns': [
+  {
+    'match': '\\*|\\?',
+    'name': 'keyword.wildcard.dockerignore'
+  }
+  {
+    'match': '^!',
+    'name': 'keyword.negated.dockerignore'
+  }
+]
+'scopeName': 'source.dockerignore'
