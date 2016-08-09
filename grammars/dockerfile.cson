@@ -40,6 +40,12 @@
     ]
   }
   {
+      'match': '(?m)\\\\$'
+      'captures':
+        '0':
+            'name': 'keyword.control.dockerfile'
+  }
+  {
     'match': '^\\s*#.*$'
     'name': 'comment.block.dockerfile'
   }
