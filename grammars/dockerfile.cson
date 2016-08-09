@@ -10,7 +10,7 @@
         'name': 'keyword.control.dockerfile'
   }
   {
-    'match': '(?i:^\\s*(onbuild\\s+)?(run|expose|env|add|copy|volume|user|workdir|cmd|entrypoint|label|arg|stopsignal)\\s)'
+    'match': '(?i:^\\s*(onbuild\\s+)?(shell|healthcheck|run|expose|env|add|copy|volume|user|workdir|cmd|entrypoint|label|arg|stopsignal)\\s)'
     'captures':
       '0':
         'name': 'keyword.control.dockerfile'
