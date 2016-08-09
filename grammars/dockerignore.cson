@@ -4,6 +4,10 @@
 ]
 'patterns': [
   {
+    'match': '^#.*$',
+    'name': 'comment.dockerignore'
+  }
+  {
     'match': '\\*|\\?',
     'name': 'keyword.wildcard.dockerignore'
   }
