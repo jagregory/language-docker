@@ -4,7 +4,15 @@
 ]
 'patterns': [
   {
-    'match': '(?i:^\\s*(maintainer|from)\\s.*)',
+    'match': '(?i:^\\s*(from)\\s.*?(.+?\\s(as)\\s.*)?)',
+    'captures':
+      '1':
+        'name': 'keyword.control.dockerfile'
+      '3':
+        'name': 'keyword.control.dockerfile'
+  },
+  {
+    'match': '(?i:^\\s*(maintainer)\\s.*)',
     'captures':
       '1':
         'name': 'keyword.control.dockerfile'
