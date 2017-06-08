@@ -54,6 +54,10 @@
         'name': 'keyword.control.dockerfile'
   }
   {
+    'match': '\\$\\{?\\w+\\}?'
+    'name': 'variable.dockerfile'
+  }
+  {
     'match': '^\\s*#.*$'
     'name': 'comment.block.dockerfile'
   }
