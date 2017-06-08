@@ -48,10 +48,10 @@
     ]
   }
   {
-      'match': '(?m)\\\\$'
-      'captures':
-        '0':
-            'name': 'keyword.control.dockerfile'
+    'match': '(?m)\\\\$'
+    'captures':
+      '0':
+        'name': 'keyword.control.dockerfile'
   }
   {
     'match': '^\\s*#.*$'
