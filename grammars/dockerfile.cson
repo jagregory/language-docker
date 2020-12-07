@@ -54,7 +54,8 @@
             'name': 'keyword.control.dockerfile'
   }
   {
-    'match': '^\\s*#.*$'
+    'begin': '^\\s*#'
+    'end': '$'
     'name': 'comment.block.dockerfile'
   }
 ]
