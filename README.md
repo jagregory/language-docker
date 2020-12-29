@@ -19,7 +19,6 @@ language-docker supports most Dockerfile syntax features, as well as .dockerigno
 Highlighting based on wildcards is [not supported](https://github.com/atom/first-mate/issues/64) in Atom. You can use package [file-types](https://atom.io/packages/file-types) with this in you `config.cson` to enable it.
 
 ```cson
-  "file-types": {
-    "^Dockerfile\\..*$": "source.dockerfile"
-  }
+  "file-types":
+    "Dockerfile.*": "source.dockerfile"
 ```
