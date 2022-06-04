@@ -1,6 +1,7 @@
 'name': 'Dockerfile'
 'fileTypes': [
   'Dockerfile'
+  'Containerfile'
 ]
 'patterns': [
   {
